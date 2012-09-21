@@ -1,5 +1,0 @@
-
-SET TERM ^ ;
-
-
-SET TERM ; ^

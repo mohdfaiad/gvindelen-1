@@ -1,7 +1,0 @@
-CREATE OR ALTER TRIGGER OBJTYPEATTRS_BI0 FOR OBJTYPEATTRS
-ACTIVE BEFORE INSERT POSITION 0
-AS
-begin
-  new.attr_id = gen_id(s_objtypeattrs, 1);
-end
-^

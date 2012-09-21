@@ -1,7 +1,0 @@
-CREATE OR ALTER TRIGGER DOCATTRS_BI0 FOR DOCATTRS
-ACTIVE BEFORE INSERT POSITION 0
-AS
-begin
-  new.attr_id = gen_id(s_docattrs, 1);
-end
-^
